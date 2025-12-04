@@ -132,12 +132,12 @@ const QuestionCard = ({ question, ratings, onRatingChange, comment, onCommentCha
           {/* Zone de commentaire */}
           <div className="comment-section">
             <h4>
-              Commentaire (optionnel)
+              Quelle serait la meilleure réponse à donner ?
               {isSaving && <span className="saving-indicator"> Enregistrement...</span>}
             </h4>
             <textarea
               className="comment-input"
-              placeholder="Ajoutez vos remarques ou observations sur cette question..."
+              placeholder="Proposez la réponse idéale que le chatbot aurait dû donner..."
               value={localComment}
               onChange={handleCommentChange}
               rows={3}
