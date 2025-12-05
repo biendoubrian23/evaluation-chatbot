@@ -98,10 +98,12 @@ const QuestionCard = ({ question, ratings, onRatingChange, comment, onCommentCha
           </div>
 
           <div className="answers-container">
+            {/* Réponse attendue masquée temporairement
             <div className="answer expected">
               <h4>Reponse attendue</h4>
               <p>{question.expected_answer}</p>
             </div>
+            */}
 
             <div className="answer actual">
               <h4>Reponse du chatbot</h4>
